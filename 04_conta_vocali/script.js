@@ -10,7 +10,7 @@ const Vocals_Fun = (words)=>{
     let vocals = ['a', 'e', 'i', 'o', 'u'];
     let vocals_number = 0;
     for (let index = 0; index < words.length; index++) {
-        if (vocals.indexOf(words[index]) !== -1) {
+        if (vocals.indexOf(words[index]) !== -1) { //indice di stringa in base alla ricerca
             vocals_number++;
         } 
     }
