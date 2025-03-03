@@ -6,16 +6,11 @@ const userName = 'Mario';
 // Dichiara la funzione qui.
 
 function Username_con(user) {
-    return console.log('Ciao', user);
+    let phrase_form = 'Ciao ' + user;
+    return phrase_form;
 }
-
-const User_Hello = (user)=>{
-    return console.log('Ciao', user);
- }
-
 // Invoca la funzione qui e stampa il risultato in console
 
-User_Hello(userName);
-Username_con(userName);
+console.log(Username_con(userName))
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
