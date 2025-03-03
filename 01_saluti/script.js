@@ -9,14 +9,13 @@ function Username_con(user) {
     return console.log('Ciao', user);
 }
 
-Username_con(userName);
+const User_Hello = (user)=>{
+    return console.log('Ciao', user);
+ }
 
 // Invoca la funzione qui e stampa il risultato in console
 
-const User_Hello = (user)=>{
-   return console.log('Ciao', user);
-}
-
 User_Hello(userName);
+Username_con(userName);
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
